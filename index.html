@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js" defer></script>
+</head>
+<body>
+    <div class="chat-container">
+        <div id="auth-section">
+            <h1>Welcome to Chat App</h1>
+            
+            <h2 id="auth-title">Login</h2>
+            <div class="form">
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+        </div>
+            <div class="btn1">
+            <button id="auth-btn">Login</button>
+            <button id="signup-btn">Sign Up</button>
+        </div>
+        </div>
+        <div class="btn3">
+        <div class="btn2">
+            <h1 id="Chat-app">Chat App</h1>
+        <div id="chat-window" class="chat-window" style="display: none;">
+        </div>
+            <div class="form2">
+        <input type="text" id="message-input" placeholder="Type a message..." style="display: none;">
+        <button id="send-btn" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+            <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+          </svg></button>
+    </div>
+    <div class="btn4">
+        <button id="logout-btn" style="display: none;">Logout</button>
+        <button id="new-chat-btn" style="display: none;">+New Chat</button> 
+    </div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
